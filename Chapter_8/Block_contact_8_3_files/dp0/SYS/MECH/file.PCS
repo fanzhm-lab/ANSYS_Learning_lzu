@@ -1,0 +1,141 @@
+******************************************************************************
+(C) Copyright 1992-2004
+Computational Applications and System Integration Inc.
+All rights Reserved.
+******************************************************************************
+
+Job:file	at:Tue Dec 26 16:03:42 2023
+
+
+	Number of cores used (Shared Memory Parallel): 2
+	Degrees of Freedom: 71346
+	DOF Constraints: 4244
+	Elements: 6000
+		Assembled: 6000
+		Implicit: 0
+	Nodes: 23782
+	Number of Load Cases: 1
+
+	Nonzeros in Upper Triangular part of
+	             Global Stiffness Matrix : 5601471
+	Nonzeros in Preconditioner: 1230366
+		*** Precond Reorder: MLD ***
+		Nonzeros in V: 901872
+		Nonzeros in factor: 185802
+		Equations in factor: 1596
+	*** Level of Difficulty: 1   (internal 0) ***
+
+	Total Operation Count: 3.67314e+009
+	Total Iterations In PCG: 129
+	Average Iterations Per Load Case:  129.0
+	Input PCG Error Tolerance: 1e-008
+	Achieved PCG Error Tolerance: 9.43437e-009
+
+
+	DETAILS OF PCG SOLVER SETUP TIME(secs)        Cpu        Wall
+	     Gather Finite Element Data              0.00        0.00
+	     Element Matrix Assembly                 0.12        0.10
+
+	DETAILS OF PCG SOLVER SOLUTION TIME(secs)     Cpu        Wall
+	     Preconditioner Construction             0.05        0.05
+	     Preconditioner Factoring                0.05        0.05
+	     Apply Boundary Conditions               0.00        0.01
+	     Preconditioned CG Iterations            0.31        0.31
+	          Multiply With A                    0.22        0.23
+	               Multiply With A22             0.22        0.23
+	          Solve With Precond                 0.10        0.07
+	               Solve With Bd                 0.01        0.01
+	               Multiply With V               0.08        0.04
+	               Direct Solve                  0.01        0.02
+******************************************************************************
+	     TOTAL PCG SOLVER SOLUTION CP TIME      =       0.41 secs
+	     TOTAL PCG SOLVER SOLUTION ELAPSED TIME =       0.42 secs
+******************************************************************************
+	Total Memory Usage at CG         :    1189.62 MB
+	PCG Memory Usage at CG           :      74.35 MB
+	Memory Usage for Matrix          :      59.59 MB
+	*** I/O Reduction Mode Activated ***
+******************************************************************************
+	Multiply with A Memory Bandwidth :     116.76 GB/s
+	Multiply with A MFLOP Rate       :   12536.85 MFlops
+	Solve With Precond MFLOP Rate    :    9518.57 MFlops
+	Precond Factoring MFLOP Rate     :     535.99 MFlops
+******************************************************************************
+	Total amount of I/O read         :       4.32 MB
+	Total amount of I/O written      :       4.32 MB
+******************************************************************************
+
+Tue Dec 26 16:03:43    LS: 1  SS: 1  EqIter: 2    Total PCG Iters:   139   LOD = 1 (0)
+Tue Dec 26 16:03:44    LS: 1  SS: 1  EqIter: 3    Total PCG Iters:   125   LOD = 1 (0)
+Tue Dec 26 16:03:44    LS: 1  SS: 1  EqIter: 4    Total PCG Iters:   137   LOD = 1 (0)
+Tue Dec 26 16:03:45    LS: 1  SS: 1  EqIter: 5    Total PCG Iters:   137   LOD = 1 (0)
+Tue Dec 26 16:03:46    LS: 1  SS: 1  EqIter: 5    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:03:47    LS: 1  SS: 2  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:03:48    LS: 1  SS: 2  EqIter: 2    Total PCG Iters:   138   LOD = 1 (0)
+Tue Dec 26 16:03:48    LS: 1  SS: 2  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:03:51    LS: 1  SS: 3  EqIter: 1    Total PCG Iters:   113   LOD = 1 (0)
+Tue Dec 26 16:03:53    LS: 1  SS: 3  EqIter: 2    Total PCG Iters:   132   LOD = 1 (0)
+Tue Dec 26 16:03:55    LS: 1  SS: 3  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:03:57    LS: 1  SS: 4  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:00    LS: 1  SS: 4  EqIter: 2    Total PCG Iters:   138   LOD = 1 (0)
+Tue Dec 26 16:04:01    LS: 1  SS: 4  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:04:03    LS: 1  SS: 5  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:06    LS: 1  SS: 5  EqIter: 2    Total PCG Iters:   132   LOD = 1 (0)
+Tue Dec 26 16:04:07    LS: 1  SS: 5  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:04:10    LS: 1  SS: 6  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:12    LS: 1  SS: 6  EqIter: 2    Total PCG Iters:   137   LOD = 1 (0)
+Tue Dec 26 16:04:14    LS: 1  SS: 6  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:04:16    LS: 1  SS: 7  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:19    LS: 1  SS: 7  EqIter: 2    Total PCG Iters:   130   LOD = 1 (0)
+Tue Dec 26 16:04:20    LS: 1  SS: 7  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:04:23    LS: 1  SS: 8  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:25    LS: 1  SS: 8  EqIter: 2    Total PCG Iters:   135   LOD = 1 (0)
+Tue Dec 26 16:04:26    LS: 1  SS: 8  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:04:29    LS: 1  SS: 9  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:31    LS: 1  SS: 9  EqIter: 2    Total PCG Iters:   130   LOD = 1 (0)
+Tue Dec 26 16:04:33    LS: 1  SS: 9  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:04:35    LS: 1  SS: 10  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:38    LS: 1  SS: 10  EqIter: 2    Total PCG Iters:   135   LOD = 1 (0)
+Tue Dec 26 16:04:39    LS: 1  SS: 10  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:04:42    LS: 1  SS: 11  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:44    LS: 1  SS: 11  EqIter: 2    Total PCG Iters:   133   LOD = 1 (0)
+Tue Dec 26 16:04:46    LS: 1  SS: 11  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:04:48    LS: 1  SS: 12  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:51    LS: 1  SS: 12  EqIter: 2    Total PCG Iters:   139   LOD = 1 (0)
+Tue Dec 26 16:04:52    LS: 1  SS: 12  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:04:55    LS: 1  SS: 13  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:04:57    LS: 1  SS: 13  EqIter: 2    Total PCG Iters:   135   LOD = 1 (0)
+Tue Dec 26 16:04:59    LS: 1  SS: 13  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:01    LS: 1  SS: 14  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:05:04    LS: 1  SS: 14  EqIter: 2    Total PCG Iters:   139   LOD = 1 (0)
+Tue Dec 26 16:05:05    LS: 1  SS: 14  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:08    LS: 1  SS: 15  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:05:10    LS: 1  SS: 15  EqIter: 2    Total PCG Iters:   131   LOD = 1 (0)
+Tue Dec 26 16:05:12    LS: 1  SS: 15  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:14    LS: 1  SS: 16  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:05:17    LS: 1  SS: 16  EqIter: 2    Total PCG Iters:   139   LOD = 1 (0)
+Tue Dec 26 16:05:18    LS: 1  SS: 16  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:21    LS: 1  SS: 17  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:05:23    LS: 1  SS: 17  EqIter: 2    Total PCG Iters:   132   LOD = 1 (0)
+Tue Dec 26 16:05:25    LS: 1  SS: 17  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:27    LS: 1  SS: 18  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:05:30    LS: 1  SS: 18  EqIter: 2    Total PCG Iters:   133   LOD = 1 (0)
+Tue Dec 26 16:05:31    LS: 1  SS: 18  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:33    LS: 1  SS: 19  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:05:36    LS: 1  SS: 19  EqIter: 2    Total PCG Iters:   140   LOD = 1 (0)
+Tue Dec 26 16:05:37    LS: 1  SS: 19  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:40    LS: 1  SS: 20  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:05:42    LS: 1  SS: 20  EqIter: 2    Total PCG Iters:   133   LOD = 1 (0)
+Tue Dec 26 16:05:44    LS: 1  SS: 20  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:46    LS: 1  SS: 21  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:05:49    LS: 1  SS: 21  EqIter: 2    Total PCG Iters:   140   LOD = 1 (0)
+Tue Dec 26 16:05:50    LS: 1  SS: 21  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:53    LS: 1  SS: 22  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:05:55    LS: 1  SS: 22  EqIter: 2    Total PCG Iters:   133   LOD = 1 (0)
+Tue Dec 26 16:05:57    LS: 1  SS: 22  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:05:59    LS: 1  SS: 23  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:06:02    LS: 1  SS: 23  EqIter: 2    Total PCG Iters:   140   LOD = 1 (0)
+Tue Dec 26 16:06:03    LS: 1  SS: 23  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)
+Tue Dec 26 16:06:06    LS: 1  SS: 24  EqIter: 1    Total PCG Iters:   112   LOD = 1 (0)
+Tue Dec 26 16:06:08    LS: 1  SS: 24  EqIter: 2    Total PCG Iters:   133   LOD = 1 (0)
+Tue Dec 26 16:06:10    LS: 1  SS: 24  EqIter: 2    Total PCG Iters:     0   LOD = 1 (0)

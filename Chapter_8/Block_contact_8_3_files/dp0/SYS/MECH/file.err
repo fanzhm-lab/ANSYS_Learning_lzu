@@ -1,0 +1,19 @@
+/COM,ANSYS RELEASE Release 16.0      BUILD 16.0      UP20141203       16:03:40
+
+ *** WARNING ***                         CP =       0.312   TIME= 16:03:41
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         CP =       0.344   TIME= 16:03:41
+ Material number 4 (used by element 5001 ) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         CP =     196.172   TIME= 16:06:11
+ During this session the elapsed time exceeds the CPU time by 52%.       
+ Often this indicates either a lack of physical memory (RAM) required    
+ to efficiently handle this simulation or it indicates a particularly    
+ slow hard drive configuration.  This simulation can be expected to run  
+ faster on identical hardware if additional RAM or a faster hard drive   
+ configuration is made available.  For more details, please see the      
+ ANSYS Performance Guide which is part of the ANSYS Help system.         
