@@ -1,0 +1,15 @@
+# Written by ICEM CFD 16.0, user Fanzhm0, Sat Nov 11 15:02:56 涓­鍥芥爣鍑嗘椂闂´ 2023
+
+begin family GEOM
+    begin solver "ANSYS Fluent"
+    end solver "ANSYS Fluent"
+end family GEOM
+
+begin family SOLID
+    begin solver "ANSYS Fluent"
+        begin bctype color
+            active 1
+            color 3403390 1
+        end bctype color
+    end solver "ANSYS Fluent"
+end family SOLID

@@ -1,0 +1,27 @@
+﻿# encoding: utf-8
+# Release 16.0
+SetScriptVersion(Version="16.0.361")
+template1 = GetTemplate(TemplateName="Geometry")
+system1 = template1.CreateSystem()
+system1.DisplayText = "Geometry_gangguan"
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="E:/coding/ANSYS code/gangguan.stp")
+geometry1.Edit()
+Save(Overwrite=True)
+system2 = template1.CreateSystem(
+    Position="Below",
+    RelativeTo=system1)
+system2.DisplayText = "Geometry_tin"
+geometry2 = system2.GetContainer(ComponentName="Geometry")
+geometry2.SetFile(FilePath="E:/coding/ANSYS code/geometry.tin")
+system2.Delete()
+template2 = GetTemplate(TemplateName="ICEMCFD")
+system3 = template2.CreateSystem(
+    Position="Below",
+    RelativeTo=system1)
+iCM1 = system3.GetContainer(ComponentName="ICM")
+iCM1.Open()
+ICEMCFD.Refresh(Container=iCM1)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)

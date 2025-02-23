@@ -1,0 +1,23 @@
+﻿# encoding: utf-8
+# Release 16.0
+SetScriptVersion(Version="16.0.361")
+template1 = GetTemplate(TemplateName="ICEMCFD")
+system1 = template1.CreateSystem()
+system1.DisplayText = "homework_ICEM CFD"
+system2 = system1.Duplicate(RelativeTo=system1)
+system2.Delete()
+iCM1 = system1.GetContainer(ComponentName="ICM")
+iCM1.Open()
+ICEMCFD.Refresh(Container=iCM1)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+system1.Delete()
+system3 = template1.CreateSystem()
+iCM2 = system3.GetContainer(ComponentName="ICM")
+iCM2.Open()
+ICEMCFD.Refresh(Container=iCM2)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)

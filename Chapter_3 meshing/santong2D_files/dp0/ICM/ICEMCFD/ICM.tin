@@ -1,0 +1,127 @@
+// tetin file version 1.1
+// written by ICEM CFD 4.2 (MED) on Tue Nov 26 11:15:41 2002
+// written by ANSYS ICEM CFD on Tue Oct 04 10:32:37 2005
+// written by ANSYS ICEM CFD on Thu Nov 03 15:27:18 2005
+// written by ICEM CFD - version 16.0 on Wed Aug 19 10:33:59 2015
+// written by ICEM CFD - version 16.0 on Sat Nov 11 15:02:56 2023
+
+set_triangulation_tolerance 0.001
+define_family GEOM color 16663866
+define_family SOLID color 3403389
+
+prescribed_point 0 16 0 family GEOM name POINTS/2
+prescribed_point 32 0 0 family GEOM name POINTS/12
+prescribed_point 52.539237976074 -4.5385341644287 0 family GEOM name POINTS/9
+prescribed_point 56.54211807251 -4.5385341644287 0 family GEOM name POINTS/8
+prescribed_point 52.539237976074 7.4614658355713 0 family GEOM name POINTS/10
+prescribed_point 56.54211807251 11.465044021606 0 family GEOM name POINTS/11
+prescribed_point 64 32 0 family GEOM name POINTS/7
+prescribed_point 48 64 0 family GEOM name POINTS/5
+prescribed_point 32 16 0 family GEOM name POINTS/3
+prescribed_point 0 0 0 family GEOM name POINTS/1
+prescribed_point 64 64 0 family GEOM name POINTS/6
+prescribed_point 48 32 0 family GEOM name POINTS/4
+prescribed_point 52.539199829102 7.4614500999451 0 family GEOM name tmp.00
+prescribed_point 56.542098999023 11.465000152588 0 family GEOM name tmp.00.1
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/5
+bspline
+8,8,0
+0,0,0,0,0
+0,0,0,26.0152817,26.0152817
+26.0152817,26.0152817,26.0152817,26.0152817,26.0152817
+26.0152817
+32,16,0
+35.5903969,16,0
+39.1807518,16.9399796,0
+42.4759674,18.8198071,0
+45.180191,21.5240326,0
+47.0600204,24.8192463,0
+48,28.4096031,0
+48,32,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/1
+bspline
+2,2,0
+0,0,16,16
+0,16,0
+0,0,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/2
+bspline
+2,2,0
+0,0,32,32
+0,16,0
+32,16,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/3
+bspline
+2,2,0
+0,0,32,32
+0,0,0
+32,0,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/6
+bspline
+2,2,0
+0,0,32,32
+48,64,0
+48,32,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/7
+bspline
+2,2,0
+0,0,16,16
+48,64,0
+64,64,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/8
+bspline
+2,2,0
+0,0,32,32
+64,64,0
+64,32,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/9
+bspline
+2,2,0
+0,0,16.0035782,16.0035782
+56.5421181,-4.53853369,0
+56.5421181,11.465044,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/10
+bspline
+2,2,0
+0,0,12,12
+52.539238,7.46146631,0
+52.539238,-4.53853369,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/11
+bspline
+2,2,0
+0,0,4.00287914,4.00287914
+52.539238,-4.53853369,0
+56.5421181,-4.53853369,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES/4 vertex2 tmp.00
+bspline
+8,8,0
+0,0,0,0,0
+0,0,0,23.084190368652,23.084190368652
+23.084190368652,23.084190368652,23.084190368652,23.084190368652,23.084190368652
+23.084190368652
+32,0,0
+35.185873845011,0,0
+38.371731903494,0.37004996136541,0
+41.506030904452,1.1101272522716,0
+44.537170074265,2.2112726935329,0
+47.415663192416,3.6555000557079,0
+50.096193922846,5.4165924976585,0
+52.539212570372,7.4614443724124,0
+define_curve height 1 size_ratio 1.5 height_ratio 1.5 family GEOM tetra_size 1 name CURVES.01 vertex1 tmp.00.1
+bspline
+8,8,0
+28.952077865601,28.952077865601,28.952077865601,28.952077865601,28.952077865601
+28.952077865601,28.952077865601,28.952077865601,52.0305634,52.0305634
+52.0305634,52.0305634,52.0305634,52.0305634,52.0305634
+52.0305634
+56.54209278746,11.465014362944,0
+58.586018458793,13.907781478168,0
+60.346284065216,16.58789441,0
+61.789815344036,19.465827038372,0
+62.890421020575,22.496293482539,0
+63.630132684032,25.629843123089,0
+64,28.814913485277,0
+64,32,0
+affix 0
+define_model 16 reference_size 1
+return
